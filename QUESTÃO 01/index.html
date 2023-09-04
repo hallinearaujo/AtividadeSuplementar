@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>Questão 01</title>
+</head>
+<body> 
+    <!-- Lembre: atalho para comentar Ctrl+k+u e desfazer comentário Ctrl+k+c  -->
+    <!-- Escreva uma rotina em JavaScript que receba um número digitado pelo usuário e depois exiba a tabuada com as 04 operações básicas da matemática -->
+
+    <div class="container">   
+            
+        <h1>Digite um número: <input type="number" id="numero" placeholder="0"></h1>
+        <div class="tabuada"></div>
+        <button id="calcular" onclick="mostrarTabuada()">Mostrar Tabuada</button>
+        <!-- <table id="tabuada"></table><br> -->
+        <button id="limpar" onclick="limparInput()">Limpar</button>
+        <div>
+            <div id="mostrarResultado"></div>
+        </div>
+    </div>  
+    <div class="containerTab">
+        <table id="tabuada"></table><br>
+    </div>    
+
+    <script type="text/javascript" src="./script.js"></script> 
+</body>
+</html>
